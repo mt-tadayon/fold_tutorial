@@ -25,7 +25,6 @@ class MyHomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       resizeToAvoidBottomInset: false,
-      resizeToAvoidBottomPadding: false,
       appBar: AppBar(
         title: Text('Fold Tutorial'),
       ),
@@ -33,4 +32,3 @@ class MyHomePage extends StatelessWidget {
     );
   }
 }
-
